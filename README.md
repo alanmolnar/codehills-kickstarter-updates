@@ -7,7 +7,9 @@ Codehills builds client sites on. It holds two things:
   theme's production build, `codehills-kickstarter-X.Y.Z-production.zip`,
   its signature `codehills-kickstarter-X.Y.Z-production.zip.sig`, and a
   `SHA256SUMS` that lists the ZIP. The release notes are that version's
-  CHANGELOG section.
+  CHANGELOG section without its "Files changed in this release"
+  subsection, the same text as `latest.json`'s `notes`, which every site's
+  Kickstarter Settings > Updates screen shows.
 - **`latest.json`** on `main`: the newest version, where its ZIP is, the
   ZIP's SHA-256 and signature, the WordPress and PHP versions it requires,
   and its notes. Sites read it from
