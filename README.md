@@ -32,7 +32,7 @@ signed, and sites refuse it.
 | `sha256` | the ZIP's SHA-256, hexadecimal |
 | `signature` | the Ed25519 signature of the ZIP's SHA-384, base64 (the same text as the `.sig` asset) |
 | `requires_wp`, `requires_php` | the `Requires at least` and `Requires PHP` headers of the theme's `style.css` |
-| `notes` | the version's CHANGELOG section, as text |
+| `notes` | the version's CHANGELOG section without its "Files changed in this release" subsection, as text: the release notes, which every site's Kickstarter Settings > Updates screen shows |
 | `release_url` | the release page |
 
 ## How a site verifies a package
